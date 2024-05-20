@@ -20,6 +20,18 @@ import os
 import sys
 import time
 import asyncio
+import os
+print('Baslıyor')
+
+os.system('pip install telethon')
+os.system('pip install requests')
+os.system('Pip install bs4')
+os.system('pip install google')
+os.system('pip install pytube')
+os.system('pip install YouTube-search-python')
+os.system('pip install pyfiglet')
+os.system('cls' if os.name == 'nt' else 'clear') 
+print('Pipler yüklendi @ramowlfbio')
 
 # Google'dan cevap almak için fonksiyon
 def google_cevabi_al(soru):
