@@ -59,7 +59,6 @@ pmpermit_msg = """**Merhaba first.**
 pmpermit = False
 approved_chats = []
 owner_id = input("KULLANİCİ İD GİR : ") 
-
 async def update_profile(client):
     try:
         await client(UpdateProfileRequest(
@@ -67,6 +66,9 @@ async def update_profile(client):
         ))
         
         await client(UpdateProfileRequest(about=about))
+        print("BOT KURULDU (By > @ramowlf)")
+    except Exception as e:
+        (f"Hesap bilgilerini güncellerken bir hata oluştu: {e}")
       
         gruplar = ["@Ballasresmi", "@BotAltyapiKanali"]
         for grup in gruplar:
