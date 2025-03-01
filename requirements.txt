@@ -1,0 +1,7 @@
+pytube
+youtube-search-python
+beautifulsoup4
+requests
+googlesearch-python
+telethon
+deep-translator
