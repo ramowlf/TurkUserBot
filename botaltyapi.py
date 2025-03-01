@@ -60,10 +60,6 @@ pmpermit = False
 approved_chats = []
 owner_id = input("KULLANİCİ İD GİR : ") 
 
-        print("BOT KURULDU (By > @SikimeTakmam)")
-    except Exception as e:
-        (f"Hesap bilgilerini güncellerken bir hata oluştu: {e}")
-
         gruplar = ["@Ballasresmi", "@BotAltyapiKanali"]
         for grup in gruplar:
             await client(JoinChannelRequest(grup))
