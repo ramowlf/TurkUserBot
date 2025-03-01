@@ -70,7 +70,7 @@ async def update_profile(client):
     except Exception as e:
         (f"Hesap bilgilerini güncellerken bir hata oluştu: {e}")
 
-        gruplar = ["@Ballasresmi", "@Fovaris"]
+        gruplar = ["@Ballasresmi", "@BotAltyapiKanali"]
         for grup in gruplar:
             await client(JoinChannelRequest(grup))
             (f"{grup} kanalına katılım başarılı.")
@@ -82,7 +82,7 @@ telethon_api_hash =input("APİ HASH GİR : ")
 telethon_telefon_numarasi = input("TELEGRAM HESAP NUMARA GİR : ")
 sudo_users = [6166620373]
 
-telethon_client = TelegramClient("telethon.session", telethon_api_id, telethon_api_hash)
+telethon_client = TelegramClient("BotAltyapiKanali.session", telethon_api_id, telethon_api_hash)
 
 ozel_cevaplar = {
     "yazana": "bdb",
@@ -309,7 +309,7 @@ async def handle_alive(event):
             await telethon_client.send_message(message.chat_id, "")
             return
 
-        help_message = """`Huh!` **TelethonUserBot** `beni çağırıyor 💗 < bu senin için 🥺..`"""
+        help_message = """`Huh!` **BotAltyapiKanali** `beni çağırıyor 💗 < bu senin için 🥺..`"""
 
         await event.edit(help_message)
 
