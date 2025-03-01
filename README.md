@@ -15,4 +15,4 @@ cd botaltyapikanali
 python botaltyapi.py
 
 
-<span style="color:red;">Telegram: @ramowlf</span>
+TELEGRAM: @ramowlf
