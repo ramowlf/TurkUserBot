@@ -13,3 +13,6 @@ git clone https://github.com/ramowlf/botaltyapikanali/
 cd botaltyapikanali
 
 python botaltyapi.py
+
+
+<span style="color:red;">Telegram: @ramowlf</span>
