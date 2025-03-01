@@ -12,7 +12,6 @@ pkg install git python python-pip -y
 git clone https://github.com/ramowlf/botaltyapikanali/
 cd botaltyapikanali
 
-```
 python botaltyapi.py
 
 ```
