@@ -292,7 +292,7 @@ async def handle_alive(event):
             await telethon_client.send_message(message.chat_id, "")
             return
 
-        help_message = """`Huh!` **TelethonUserBot** `beni çağırıyor 💗 < bu senin için 🥺..`"""
+        help_message = """`Huh!` **@BotAltyapiKanali** `beni çağırıyor 💗 < bu senin için 🥺..`"""
 
         await event.edit(help_message)
 
