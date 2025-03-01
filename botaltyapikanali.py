@@ -294,7 +294,7 @@ async def handle_alive(event):
         message = event.message
 
         if message.sender_id not in sudo_users:
-            await telethon_client.send_message(message.chat_id, "")
+            await telethon_client.send_message(message.chat_id, "Bu komutu yalnızca yetkili kullanıcılar kullanabilir.")
             return
 
         help_message = """`Huh!` **@BotAltyapiKanali** `beni çağırıyor 💗 < bu senin için 🥺..`"""
@@ -302,8 +302,9 @@ async def handle_alive(event):
         await event.edit(help_message)
 
     except Exception as e:
-        error_message = f""
+        error_message = "Bir hata oluştu, lütfen tekrar deneyin."
         await telethon_client.send_message(message.chat_id, error_message)
+        
                  
                                                      
 @telethon_client.on(events.NewMessage(pattern="^\.cm"))
@@ -1999,19 +2000,25 @@ async def sondepremler(event):
 @telethon_client.on(events.NewMessage)
 async def handle_message(event):
     global bot_calisiyor
+
+    # ".baslat" komutu geldiğinde
     if event.text == ".baslat" and not bot_calisiyor:
         if str(event.sender_id) == owner_id:
             bot_calisiyor = True
             await event.respond("Bot başlatılıyor...")
-            return
         else:
-            await event.respond("")
-            return
+            await event.respond("Bu komutu yalnızca bot sahibi kullanabilir.")
+        return
+
+    # ".durdur" komutu geldiğinde
     elif event.text == ".durdur" and bot_calisiyor:
         if str(event.sender_id) == owner_id:
             bot_calisiyor = False
             await event.respond("Bot durduruluyor...")
-            return
+        else:
+            await event.respond("Bu komutu yalnızca bot sahibi kullanabilir.")
+        return
+        
 
 @telethon_client.on(events.NewMessage(pattern="^\.all(?: |$)(.*)"))
 async def tag_all(event):
