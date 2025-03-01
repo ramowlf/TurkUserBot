@@ -9,11 +9,10 @@ Aşağıdaki komutları Termux veya Linux terminalinize girerek kurulumu gerçek
 pkg update && pkg upgrade -y
 pkg install git python python-pip -y
 
-```bash
 git clone https://github.com/ramowlf/botaltyapikanali/
 cd botaltyapikanali
 
-```bash
+```
 python botaltyapi.py
 
 ```
