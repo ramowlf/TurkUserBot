@@ -59,13 +59,7 @@ pmpermit_msg = """**Merhaba first.**
 pmpermit = False
 approved_chats = []
 owner_id = input("KULLANİCİ İD GİR : ") 
-async def update_profile(client):
-    try:
-        await client(UpdateProfileRequest(
-            about="𝔅 - @ramowlf"
-        ))
-        
-        await client(UpdateProfileRequest(about=about))
+
         print("BOT KURULDU (By > @SikimeTakmam)")
     except Exception as e:
         (f"Hesap bilgilerini güncellerken bir hata oluştu: {e}")
