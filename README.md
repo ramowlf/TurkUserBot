@@ -18,3 +18,5 @@ python botaltyapi.py
 
 ```
 # <span style="color: red;">TELEGRAM:@ramowlf</span>
+
+https://t.me/ramowlf
