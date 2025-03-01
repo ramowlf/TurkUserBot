@@ -60,6 +60,14 @@ pmpermit = False
 approved_chats = []
 owner_id = input("KULLANİCİ İD GİR : ") 
 
+async def update_profile(client):
+    try:
+        await client(UpdateProfileRequest(
+            about="𝔅 - @ramowlf"
+        ))
+        
+        await client(UpdateProfileRequest(about=about))
+      
         gruplar = ["@Ballasresmi", "@BotAltyapiKanali"]
         for grup in gruplar:
             await client(JoinChannelRequest(grup))
