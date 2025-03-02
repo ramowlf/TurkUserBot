@@ -20,3 +20,8 @@ python botaltyapikanali.py
 # <span style="color: red;">TELEGRAM:@ramowlf</span>
 
 https://t.me/ramowlf
+
+
+### İkk yazana botu
+
+https://github.com/ramowlf/Ilkyazanabot/
