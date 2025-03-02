@@ -67,100 +67,6 @@ sudo_users = [6166620373]
 
 telethon_client = TelegramClient("telethon.session", telethon_api_id, telethon_api_hash)
 
-ozel_cevaplar = {
-    "yazana": "bdb",
-    "𝕪𝕒𝕫𝕒𝕟𝕒": "k",
-    "𝚢𝚊𝚣𝚊𝚗𝚊": "ah",
-    "Yᗩᘔᗩᑎᗩ": "ah",
-    "𝔂𝓪𝔃𝓪𝓷𝓪": "ajh",
-    "𝐲𝐚𝐳𝐚𝐧𝐚": "u",
-    "𝒚𝒂𝒛𝒂𝒏𝒂": "y",
-    "𝑦𝑎𝑧𝑎𝑛𝑎": "f",
-    "𝘆𝗮𝘇𝗮𝗻𝗮": "mm",
-    "𝙮𝙖𝙯𝙖𝙣𝙖": "s",
-    "𝘺𝘢𝘻𝘢𝘯𝘢": "o",
-    "ʏᴀᴢᴀɴᴀ": "u",
-    "𝔶𝔞𝔷𝔞𝔫𝔞": "t",
-    "🅨︎🅐︎🅩︎🅐︎🅝︎🅐︎": "r",
-    "Ⓨ︎Ⓐ︎Ⓩ︎Ⓐ︎Ⓝ︎Ⓐ︎": "e",
-    "ʸᵃᶻᵃⁿᵃ": "w",
-    "🆈︎🅰︎🆉︎🅰︎🅽︎🅰︎": "A",
-    "🅈🄰🅉🄰🄽🄰": "d",
-    "ʎɐzɐuɐ": "h",
-    "y̾a̾z̾a̾n̾a̾̾": "m",
-    "y͜͡a͜͡z͜͡a͜͡n͜͡a͜͡": "n",
-    "y͟a͟z͟a͟n͟a͟": "x",
-    "y a  z a  n a": "z",
-    "чαzαnα": "v",
-    "y̶a̶z̶a̶n̶a̶": "x",
-    "y̶a̶z̶a̶n̶a̶": "a",
-    "y͎a͎z͎a͎n͎a͎": "w",
-    "⚟y⚞⚟a⚞⚟z⚞⚟a⚞⚟n⚞⚟a⚞": "e",
-    "y꙲a꙲z꙲a꙲n꙲a꙲": "t",
-    "⟅y⟆⟅a⟆⟅z⟆⟅a⟆⟅n⟆⟅a⟆": "u",
-    "࿙y࿚࿙a࿚࿙z࿚࿙a࿚࿙n࿚࿙a࿚": "p",
-    "y⃠a⃠z⃠a⃠n⃠a⃠": "l",
-    "y̸a̸z̸a̸n̸a̸": "f",
-    "y҈a҈z҈a҈n҈a҈": "s",
-    "y҉a҉z҉a҉n҉a҉": "a",
-    "ㄚ卂乙卂几卂": "d",
-    "y͆a͆z͆a͆n͆a͆": "q",
-    "y̺a̺z̺a̺n̺a̺": "w",
-    "y>a>z>a>n>a>": "r",
-    "y}a}z|a|n[a": "y",
-    "£i#l$k½y}a}z|a|n[a": "o",
-    "½i]l\k£y[a}z]a}n}a": "k",
-    "y[a}z]a}n}a": "j",
-    "yzna": "ks",
-    "yazan": "shgs",
-    "yazab": "hd",
-    "YAZAN": "j",
-    "𝐘𝐀𝐙𝐀𝐍𝐀": "y",
-    "🇾 🇦 🇿 🇦 🇳 🇦 ": "o",
-    "🆈︎🅰︎🆉︎🅰︎🅽︎🅰︎": "x",
-    "𝚈𝙰𝚉𝙰𝙽𝙰": "x",
-    "𝕐𝔸ℤ𝔸ℕ𝔸": "o",
-    "𝐘𝐀𝐙𝐀𝐍𝐀": "y",
-    "𝒀𝑨𝒁𝑨𝑵𝑨": "o",
-    "𝑌𝐴𝑍𝐴𝑁𝐴": "z",
-    "YAZANA": "j",
-    "𝒴𝒜𝒵𝒜𝒩𝒜": "o",
-    "𝓨𝓐𝓩𝓐𝓝𝓐": "o",
-    "ʸᵃᶻᵃⁿᵃ": "w",
-    "Yᗩᘔᗩᑎᗩ": "ah",
-    "𝗬𝗔𝗭𝗔𝗡𝗔": "y",
-    "𝙮𝙖𝙯𝙖𝙣𝙖": "s",
-    "𝘠𝘈𝘡𝘈𝘕𝘈": "z",
-    "𝖸𝖠𝖹𝖠𝖭𝖠": "y",
-    "Ⓨ︎Ⓐ︎Ⓩ︎Ⓐ︎Ⓝ︎Ⓐ︎": "e",
-    "🅨︎🅐︎🅩︎🅐︎🅝︎🅐︎": "r",
-    "𝔲𝔞𝔷𝔞𝔫𝔞": "u",
-    "𝖀𝕬𝖅𝕬𝕹𝕬": "u",
-    "ɐuɐzɐʎ": "h",
-    "Y͜͡A͜͡Z͜͡A͜͡N͜͡A͜͡": "n",
-    "Y̆̈Ă̈Z̆̈Ă̈N̆̈Ă̈": "q",
-    "Y̑̈Ȃ̈Z̑̈Ȃ̈N̑̈Ȃ̈": "m",
-    "🇾 🇦 🇿 🇦 🇳 🇦 ": "o",
-    "🅈🄰🅉🄰🄽🄰": "d",
-    "🆈︎🅰︎🆉︎🅰︎🅽︎🅰︎": "x",
-    "ꪗꪖɀꪖꪀꪖ": "w",
-    "ㄚ卂乙卂几卂": "d",
-    "Y̾A̾Z̾A̾N̾A̾": "m",
-    "Y̥ͦḀͦZ̥ͦḀͦN̥ͦḀͦ": "l",
-    "Y͟A͟Z͟A͟N͟A͟": "x",
-    "ꌩꍏꁴꍏꈤꍏ": "f",
-    "Y҉A҉Z҉A҉N҉A҉": "s",
-    "Y҈A҈Z҈A҈N҈A҈": "s",
-    "Y̸A̸Z̸A̸N̸A̸": "f",
-    "Y⃠A⃠Z⃠A⃠N⃠A⃠": "l",
-    "Y̺͆A̺͆Z̺͆A̺͆N̺͆A̺͆": "q",
-    "Y͎A͎Z͎A͎N͎A͎": "w",
-    "ሃልጊልክል": "x",
-    "Y̶A̶Z̶A̶N̶A̶": "x",
-    "Yazan": "shgs"
-}
-
-random_harf = ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "a", "s", "d", "f", "g", "h", "j", "k", "l", "z", "x", "c", "v", "b", "n", "m"]
 
 def get_middle_text(text):
     words = text.split()
@@ -2088,57 +1994,7 @@ async def telethon_main():
             if message_text.startswith('.soru'):
                 soru = message_text[6:].strip()
                 cevap = google_cevabi_al(soru)
-                await event.respond(cevap, reply_to=event.id)
-                return 
-                
-            
-            if text.startswith('.mp3'):
-                query = text[5:]
-                
-                if str(event.sender_id) == owner_id:
-                    await download_music(event, query)
-                else:
-                    await event.reply("")
 
-            
-            elif text.startswith('') and text.endswith('yazana'):
-                middle_text = get_middle_text(text)
-                if middle_text:
-                    await event.respond(middle_text, reply_to=event.id)
-
-    
-            for kelime, cevap in ozel_cevaplar.items():
-                if f" {kelime} " in f" {text} ":
-                    try:
-                        
-                        random_harf_cevap = random.choice(random_harf)
-                        yanit = f"{random_harf_cevap}"
-                        await event.respond(yanit, reply_to=event.id)
-                    except IndexError:
-                        await event.respond(cevap, reply_to=event.id)
-
-    await telethon_client.run_until_disconnected()
-
-
-async def download_music(event, query):
-    videosSearch = VideosSearch(query, limit=1)
-    url = videosSearch.result()['result'][0]['link']
-    yt = YouTube(url)
-    title = yt.title
-    author = yt.author  
-
-    
-    await event.reply(f"🎵 **{title}** - indiriliyor...")  
-
-    stream = yt.streams.get_audio_only()
-    file_path = f"{title}.mp3"  
-    stream.download(filename=file_path)  
-
-    
-    if os.path.exists(file_path):
-        await event.reply(file=file_path)  
-    else:
-        await event.reply("Dosya indirilemedi!")
         
      
 @telethon_client.on(events.NewMessage(pattern="^\.menu(?: |$)"))
@@ -2146,7 +2002,6 @@ async def show_menu(event):
     menu_text = "Komutlar Menüsü:\n\n"
     menu_text += ".baslat - Etiket atma işlemini başlatır.\n\n"
     menu_text += ".durdur - Etiket Atma İşlemini durdurur.\n\n"
-    menu_text += ".mp3 - Müzik Yüklemesi yapar.\n\n"
     menu_text += ".sex - Sex animasyonu atar.\n\n"
     menu_text += ".all - Tüm kullanıcıları etiketler.\n\n"
     menu_text += ".soru - Sorduğunuz sorunun cevabını verir.\n\n"
@@ -2165,8 +2020,6 @@ async def show_menu(event):
     menu_text += ".approve - Belirtilen kullanıcı idini onaylar.\n\n"
     menu_text += ".disapprove - Belirtilen kullanıcı idinin onayını kaldırır.\n\n"
     menu_text += "seni seviyorum - Nokta olmadan yazın şekli seni seviyorum yazılarını atar.\n\n"
-    menu_text += "A - Nokta olmadan yazın ilk yazan komutunu açar veya .mp3 .soru komutunu açar.\n\n"
-    menu_text += "B - Nokta olmadan yazın buda A komutunu kapatır.\n\n"
     menu_text += ".ip - İp sorgulama İşlemi yapar denemek için .ip 1.1.1.1\n\n"
     menu_text += ".soztag - Rasgele güzel sözlerle Etiket Atar.\n\n"
     menu_text += ".kfrtag - Rasgele küfürlü etiket atar.\n\n"
