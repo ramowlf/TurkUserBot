@@ -22,6 +22,6 @@ python botaltyapikanali.py
 https://t.me/ramowlf
 
 
-### İkk yazana botu
+### İlk yazana botu
 
-https://github.com/ramowlf/Ilkyazanabot/
+https://github.com/ramowlf/Ilkyazanabot
