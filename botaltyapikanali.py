@@ -22,7 +22,7 @@ import asyncio
 try:
   from deep_translator import GoogleTranslator
 except:
-  print("Eksik Pip Bulundu. Yükleniyor...")
+  print("Eksik Pip Bulundu. Yükleniyor...") # Telegram @BotAltyapiKanali
   os.system("pip install deep-translator --break-system-packages")
   from deep_translator import GoogleTranslator
 
