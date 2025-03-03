@@ -7,6 +7,7 @@ Aşağıdaki komutları Termux veya Linux terminalinize girerek kurulumu gerçek
 ### 📥 Kurulum Komutları:
 ```bash
 
+termux-setup-storage
 termux-change-repo
 pkg update && pkg upgrade -y
 pkg install git python python-pip -y
