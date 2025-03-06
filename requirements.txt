@@ -7,3 +7,4 @@ telethon
 gtts
 sympy
 deep-translator
+youtube-search-python
