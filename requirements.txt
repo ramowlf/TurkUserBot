@@ -5,3 +5,6 @@ requests
 googlesearch-python
 telethon
 deep-translator
+gtts
+sympy
+re
