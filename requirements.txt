@@ -1,5 +1,5 @@
 pytube
-youtubesearchpython
+yt-search
 beautifulsoup4
 requests
 google
