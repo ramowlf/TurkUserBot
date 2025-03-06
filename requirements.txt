@@ -1,10 +1,9 @@
 pytube
-youtube-search-python
+youtubesearchpython
 beautifulsoup4
 requests
-googlesearch-python
+google
 telethon
-deep-translator
 gtts
 sympy
-re
+deep-translator
