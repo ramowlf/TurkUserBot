@@ -46,7 +46,7 @@ pmpermit_msg = """**Merhaba first.**
 **👉🏻Adınız: first**
 **👉🏻Kullanıcı adınız: username**
 
-`📜Listeye alındınız.`"""
+`📜Listeye alındınız`"""
 pmpermit = False
 approved_chats = []
 
