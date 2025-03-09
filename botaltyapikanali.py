@@ -1,3 +1,4 @@
+# RAMAZAN ÖZTÜRK @ramowlf
 from pytube import YouTube
 from youtubesearchpython import VideosSearch
 from bs4 import BeautifulSoup
@@ -709,6 +710,8 @@ EGOCKİRAL = [
 "**Ne zaman batan güneşe baksam hüzünlenirim yanımda yoksun diye, ne zaman yıldızlara baksam üşürüm hayalinle ısınırım, ne zaman yanımda olsan işte bunların hepsini unuturum bir tanem benim.**",
 "**Hayatta üç şeyi sevdim. Seni, kalbimi, ümit etmeyi. Seni sevdim, sensin diye. Kalbimi sevdim, seni sevdi diye. Ümit etmeyi sevdim, belki seversin diye.**",
   ]
+
+# RAMAZAN ÖZTÜRK @ramowlf
 
 @telethon_client.on(events.NewMessage(pattern=r"^\.yavsa"))
 async def egockiral(event):
