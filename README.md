@@ -26,3 +26,7 @@ https://t.me/ramowlf
 ### İlk yazana botu
 
 https://github.com/ramowlf/Ilkyazanabot
+
+### Açıklama 
+
+isteyen arkadaşlar forklayıp değiştirebilir 2 ay sonra telegramda olacağım cok daha iyi bir userbot geliyor kanalımızı takip etmeyi unutmayın @TurkUserBotKanali
