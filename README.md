@@ -29,4 +29,4 @@ https://github.com/ramowlf/Ilkyazanabot
 
 ### Açıklama 
 
-isteyen arkadaşlar forklayıp değiştirebilir 2 ay sonra telegramda olacağım cok daha iyi bir userbot geliyor kanalımızı takip etmeyi unutmayın @TurkUserBotKanali
+isteyen arkadaşlar forklayıp değiştirebilir 2 ay sonra telegramda olacağım cok daha iyi bir userbot geliyor kanalımızı takip etmeyi unutmayın @TurkUserBotKanali tek ricam çalıp bana ait felan demeyin harbi ananızı sikerim çalanın anası karimdir ohh
