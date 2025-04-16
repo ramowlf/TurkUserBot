@@ -1,4 +1,4 @@
-eski ismiyle TelethonUserBot olarak bilinen botumuz BotAltyapiKanali olarak devam edecektir inşallah 
+TÜRK USERBOT 
 
 # <span style="color: red;">KURULUM</span>
 
