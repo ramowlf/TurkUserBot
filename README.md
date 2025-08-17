@@ -15,6 +15,7 @@ pkg install git python python-pip -y
 git clone https://github.com/ramowlf/TurkUserBot/
 cd TurkUserBot
 pip install -r requirements.txt
+cd ramo
 python botaltyapikanali.py
 
 ```
