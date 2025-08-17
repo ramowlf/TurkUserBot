@@ -51,7 +51,7 @@ telethon_client = TelegramClient(session_name, telethon_api_id, telethon_api_has
 
 ramo_babus = False
 ramoss = {}
-sudo_users = [7207620596]
+sudo_users = [5743632846]
 print("bot başladı Lütfen komut bekleyin..", flush=True)
 print("Hocam Kod geldi 5 7 8 9 halinde yaz", flush=True)  
 cmd = "TurkUserBot"
