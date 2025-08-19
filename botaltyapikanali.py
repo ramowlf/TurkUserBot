@@ -13,7 +13,6 @@ from telethon.tl.types import Channel, Chat, User
 from telethon.errors import SessionPasswordNeededError
 from datetime import datetime, timedelta
 from random import choice
-from sohbet import ramo
 import json
 import os
 import random
